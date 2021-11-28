@@ -1,0 +1,46 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+
+.pirmas {
+    background-color: gray;
+    position: static;
+}
+
+.antras {
+    background-color: purple;
+    postion: absolute;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.trecias{
+    background-color: blue;
+    position: fixed;
+    margin-left: 200px;
+    margin-top: -100px;
+}
+
+.ketvirtas{
+    background-color: green;
+    position: relative;
+    margin-left: 50px;
+}
+.penktas{
+    position: relative ;
+    background-color: greenyellow;
+    width: 150px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.sestas{
+    background-color: pink;
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}

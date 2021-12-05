@@ -1,3 +1,5 @@
+console.log("Duotas kintamasis r = 15. Sukurti algoritmus kurie skaičiuotų apskritimo ilgį ir plotą.");
+
 let r = 15;
 let pi = 3.14;
 

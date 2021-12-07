@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tabs.css">
+    <title>Tabs</title>
+</head>
+<body>
+<!--
+1.Is pradziu sukuriam tab'u div'a, su klase bendra tabai;
+2. Sukuriam dar viena div'u 'komplekta' su bendra klase, kad galetume ja manipuliuoti spaudziant juos;
+3. JS is innerHTML pagal klase istraukiamis innerHTML 'sheet', kad galetume manipuliuoti su kiekvienu sheet atskirai;
+4. JS manipulaicijos, kad keistusi tabai;
+ -->
+<div class="tabai">
+    <a href="#titulinis" onclick="tabs('titulinis')">Titulinis</a>
+    <a href="#archyvas" onclick="tabs('archyvas')">Archyvas</a>
+    <a href="#nustatymai" onclick="tabs('nustatymai')">Nustatymai</a>
+    <a href="#kita" onclick="tabs('kita')">Kita</a>
+    <a href="#atsiliepimai" onclick="tabs('atsiliepimai')">Atsiliepimai</a>
+</div>
+
+<div class="sheets">
+    <div id="titulinis" class="sheet">Titulinio puslapis</div>
+    <div id="archyvas" class="sheet">Archyvo puslapis</div>
+    <div id="nustatymai" class="sheet">Nustatymu puslapis</div>
+    <div id="kita" class="sheet">Kiti dalykai</div>
+    <div id="atsiliepimai" class="sheet">Atsiliepimu vieta</div>
+</div>
+
+<script src="tabs.js"></script>
+</body>
+</html>

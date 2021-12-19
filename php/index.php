@@ -61,9 +61,8 @@ fwrite($resursas, $data);
 $kiek = filesize($manoFailas);
 printFile($resursas, $kiek);
 
-copy($manoFailas, 'mano_failas_new.html');
+copy($manoFailas, 'mano_failas.html');
 
-unlink($manoFailas);
 
 ?>
 </body>
